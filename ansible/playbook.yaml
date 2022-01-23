@@ -1,0 +1,9 @@
+- name: oci
+  hosts: oci
+  become: true
+  vars:
+    k3s_become: true
+    tailscale_authkey: <READACTED>
+  roles:
+    - { role: "xanmanning.k3s", tags: ["k3s"] }
+    - { role: "artis3n.tailscale", tags: ["tailscale"] }

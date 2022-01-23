@@ -1,0 +1,14 @@
+# Oracle
+oracle_tenancy_ocid = 
+oracle_user_ocid    = 
+oracle_private_key  = 
+oracle_fingerprint  = 
+oracle_region       = 
+
+# Cloudflare
+cloudflare_email   = 
+cloudflare_api_key = 
+
+# Other
+public_ssh_key = 
+base_domain    = 
